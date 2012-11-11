@@ -1,0 +1,45 @@
+body,form,h1,ul {
+padding: 0; margin: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+font-weight: normal;
+font-size: 100%;
+}
+
+
+
+tr.line {
+    background: transparent url(../img/hori_spline.png) top left repeat-x;
+    padding: 6px 0 5px;
+	list-style-type: none;
+	}
+td.pad{	
+		padding: 5px 5px 5px 5px;text-align:center;font-size:14px;}/*商品表格的間距*/
+td.pad2{	
+		padding: 3px;text-align:center;}/*商品表格的間距*/		
+.related{
+		float:left;
+		width:200px;
+		border:1px solid #DDD;
+		border-top:1px solid #A3D1F0;
+		overflow:hidden;
+		margin-left: 10px;   /*左邊界值*/
+		margin-bottom:10px}
+h3{
+		margin: 0 auto;
+		margin-bottom:10px;
+		padding:5px 0px 5px 10px;
+		font-size:13px;
+		border-bottom:1px solid #DDD;
+		background:#E0E0E0 url(../img/sprite.png) no-repeat right -178px}
+.rltimg{
+		padding-left: 15px;padding-right: 15px;}
+.style3 {
+		background-color: #FFFFFF;}
+.style4 {
+		background-color: #D7E7FF;}
+.right{float:right;}
+a:link , a:visited{ text-decoration: none }
+a:hover{color:#F4AB25;font-weight: bold;}
+.bigmenu:hover{color:#F4AB25;cursor:pointer;font-weight: bold;}
+.location{float:right;padding-right: 10px;font-size: 10pt;color: #616161;}
